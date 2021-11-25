@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookShop</title>
+    <link rel="stylesheet" type="text/css" href="styles/styleMenu.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/tempStyles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="headDiv">Discount 20%</div>
+        
+        <h1>BookStore</h1>
+        <nav>
+            <ul id="mainMenuItems" class="menu">
+                
+                <span onclick="toMainPage()">MAIN</span>            
+
+                <li class="li_main">
+                    <span>LABS</span>
+                      <ul class = "sub_menu">
+                         <li class="li_sub">
+                            <div class = "menuDiv">Lab_1</div>
+
+                            <ul class = "third_menu">
+                                    <li>
+                                        <a href="../Лабораторна робота №1/index.html" target="_blank"><div class = "menuDiv">Open</div></a>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">Docs</div>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">Mode</div>
+                                    </li>
+                            </ul>
+
+                         </li>
+                         <li class="li_sub">
+                            <div class = "menuDiv">Lab_2</div>
+
+                            <ul class = "third_menu">
+                                    <li>
+                                        <a href="../Лабораторна робота №2/index_exmpl.html" target="_blank"><div class = "menuDiv">Open</div></a>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">Docs</div>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">Mode</div>
+                                    </li>
+                                </ul>
+
+                         </li>
+                         <li class="li_sub">
+                            <div class = "menuDiv">Lab_4</div>
+
+                            <ul class = "third_menu">
+                                    <li>
+                                        <a href="../Лабораторна робота №4/index.html" target="_blank"><div class = "menuDiv">Open</div></a>
+                                    </li>
+                                    <li>
+                                        <a href="../Лабораторна робота №4/index_test.html" target="_blank"><div class = "menuDiv">Docs</div></a>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">Mode</div>
+                                    </li>
+                                </ul>
+                         </li>
+                      </ul>
+                </li>
+
+                <li class="li_main">
+                    <span>PRODUCTS</span>
+                        <ul class = "sub_menu">
+                            <li class="li_sub">
+                                <div class = "menuDiv">Product1</div>
+
+                                <ul class = "third_menu">
+                                    <li>
+                                        <a href="../Лабораторна робота №6/index.html" target="_blank"><div class = "menuDiv">Describe</div></a>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">Source</div>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="li_sub">
+                                <div class = "menuDiv">Product2</div>
+
+                                <ul class = "third_menu">
+                                    <li>
+                                        <div class = "menuDiv">Describe</div>
+                                    </li>                                    
+                                </ul>
+                            </li>
+                            <li class="li_sub">
+                                <div class = "menuDiv">Product3</div>
+
+                                <ul class = "third_menu">
+                                    <li>
+                                        <div class = "menuDiv">Source</div>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">Help</div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                </li>
+
+                <li class="li_main">
+                    <span>QA</span>
+                        <ul class = "sub_menu">
+                            <li class="li_sub">
+                                <div class = "menuDiv">About us</div>
+
+                                <ul class = "third_menu">
+                                    <li>
+                                        <div class = "menuDiv">Articles</div>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">News</div>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">Environtment</div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="li_sub">
+                                <div class = "menuDiv">About me</div>
+
+                                <ul class = "third_menu">
+                                    <li>
+                                        <div class = "menuDiv">Articles</div>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">News</div>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">Environtment</div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="li_sub">
+                                <div class = "menuDiv">About you</div>
+
+                                <ul class = "third_menu">
+                                    <li>
+                                        <div class = "menuDiv">Articles</div>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">News</div>
+                                    </li>
+                                    <li>
+                                        <div class = "menuDiv">Environtment</div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <nav class="mainNav">
+            <ul>
+                <details id="categories">
+                    <summary>Категорії</summary>    
+                </details>
+                <details id="authors">
+                    <summary>Автори</summary>    
+                </details>
+            </ul>
+        </nav>
+
+        <div class="mainDiv"></div>
+
+    </main>
+
+    <footer>
+       <p>Copyright © <time datetime="2021">2021</time> 
+          Starzhevskiy Denis</p>
+       <address>Lviv, Ukraine.</address>
+    </footer>
+
+    <script src="js/scriptMenu.js"></script>
+    <script src="js/script_book.js"></script>
+
+</body>
+</html>
